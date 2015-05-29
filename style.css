@@ -29,7 +29,7 @@ body nav ul li div {
 }
  
 #nav a {
-    opacity: 0.6;
+    opacity: 0.8;
 	color : white;
 	float: center;
 	padding: 0;
@@ -46,7 +46,8 @@ body nav ul li div {
 
 	overflow: scroll;
 }
- 
+
+
 #nav a:hover {
     opacity: 1.0;
 	color: #FFCC00;
@@ -99,12 +100,6 @@ body nav ul li div {
   font-size: 0px;
 }
 
-body nav ul li a:hover {
-	opacity: 1.0;
-	color: #FFCC00;
-	text-shadow: 5px 5px 10px #1B1B1A;
-	transition-duration: 0.25s;
-}
 body nav {
 	text-align: center;
 }
@@ -112,11 +107,11 @@ html,body {
 	height:100%;
 }
 body {
-	background-image: url(proba1.jpg);
+	background-image: url(moment2.jpg);
 	background-repeat:no-repeat;
 	margin:0;
 	height:100%;
-	background-size:auto 100%;
+	background-size:100%;
 }
 
 #mainpage h2 {
@@ -161,7 +156,7 @@ body {
 	transform: translate(-50%, -50%);
 }
 #aboutme {
-	background-image: url(background3.jpg);
+	background-image: transparent;
 	background-repeat:no-repeat;
 	margin:0;
 	height:100%;
@@ -187,6 +182,11 @@ body {
 	margin-right: 10%;
 	transform: translate(-50%, -50%);
 }
+#aboutme h2 strong:hover {
+	opacity: 1.0;
+	text-shadow: 7px 7px 13px #090101;
+	transition-duration: 0.25s;
+}
 #aboutme h2 strong{
 	color : orange;
 	float: center;
@@ -204,7 +204,7 @@ body {
 }
 
 #education{
-	background-image: url(background4.jpg);
+	background-image: transparent;
 	background-repeat:no-repeat;
 	margin:0;
 	height:100%;
@@ -216,7 +216,7 @@ body {
 	padding: 0;
 	margin: 1;	
 	font-style: normal;
-	font-size: 60px;
+	font-size: 20px;
 	text-transform: uppercase;
 	font-family: Arial black;
 	font-variant: small-caps;
@@ -227,11 +227,34 @@ body {
 	position: absolute;
 	top: 250%;
 	left: 50%;
+	margin-right: 10%;
+	transform: translate(-50%, -50%);
+}
+#education h1 strong{
+	color : orange;
+	float: center;
+	padding: 0;
+	margin: 1;	
+	font-style: normal;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-family: fantasy;
+	font-variant: small-caps;
+	font-weight: center;
+	text-decoration: none;
+	text-shadow: 5px 5px 10px #1B1B1A;
+
+}
+#education img{
+	width: 10%;
+		position: absolute;
+	top: 223%;
+	left: 50%;
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
 }
 #contact{
-	background-image: url(backcontact.jpg);
+	background-image: transparent;
 	background-repeat:no-repeat;
 	margin:0;
 	height:100%;
@@ -243,7 +266,7 @@ body {
 	padding: 0;
 	margin: 1;	
 	font-style: normal;
-	font-size: 60px;
+	font-size: 20px;
 	text-transform: uppercase;
 	font-family: Arial black;
 	font-variant: small-caps;
@@ -252,9 +275,40 @@ body {
 	text-shadow: 5px 5px 10px #1B1B1A;
 	text-align: center;
 	position: absolute;
-	top: 350%;
+	top: 340%;
 	left: 50%;
-	margin-right: -50%;
+	margin-right: 10%;
 	transform: translate(-50%, -50%);
-
+}
+#contact h1 strong{
+	color : orange;
+	float: center;
+	padding: 0;
+	margin: 1;	
+	font-style: normal;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-family: fantasy;
+	font-variant: small-caps;
+	font-weight: center;
+	text-decoration: none;
+	text-shadow: 5px 5px 10px #1B1B1A;
+}
+#contact article h1 a{
+	color : orange;
+	float: center;
+	padding: 0;
+	margin: 1;	
+	font-style: normal;
+	font-size: 25px;
+	font-family: sans-serif;
+	font-variant: small-caps;
+	font-weight: center;
+	text-decoration: none;
+	text-shadow: 5px 5px 10px #1B1B1A;
+}
+#contact h1 a:hover {
+	opacity: 1.0;
+	text-shadow: 7px 7px 13px #090101;
+	transition-duration: 0.25s;
 }
